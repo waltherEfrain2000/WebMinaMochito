@@ -1,38 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Mi primera Web</title>
-    </head>
-    <body>
-        <!----Encabezado-->
-        <h1>Mi Primera Web</h1>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Ayuda Mina Mochito</title>
+      <!--Conexion con el estilo en css-->
+      <link rel="stylesheet" href="Ayuda_Inventario/AyudaSalidas.css">
+</head>
+<body>
+    <section id="about">
+        <div class="container wow fadeInUp">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="section-title">Bienvenido a la web de ayuda de Mina Mochito</h3>
+              <div class="section-title-divider"></div>
+              <p class="section-description">
+                
         <ul>
-            <li> <a href="Ayuda_Equipamiento/AyudaEquipamiento.html" title="Inicio"> Ayuda_Equipamiento</a></li>
-            <li> <a href="Ayuda_Salidas/Salidas/Salidas/AyudaSalidas.html" title="Inicio"> Ayuda_Salidas</a></li>
-            <li> <a href="AyudaCargo/ACargoE.html" title="Inicio"> Ayuda_Cargo</a></li>
-            <li> <a href="AyudaProduccionMain/VProduccion.html" title="Inicio"> AyudaProduccionMain</a></li>
-            <li><a href="" title="Ayuda_Inventario/AyudaEmpleados.html" title="Ayuda_Inventario" >   Ayuda_Inventario </a></li>
-            <li><a href="contacto.html" title="Contacto">   Contactos </a></li>
-        </ul>
+          <li> <a href="Ayuda_Equipamiento/AyudaEquipamiento.html" title="Inicio"> Ayuda_Equipamiento</a></li>
+          <li> <a href="Ayuda_Salidas/Salidas/Salidas/AyudaSalidas.html" title="Inicio"> Ayuda_Salidas</a></li>
+          <li> <a href="AyudaCargo/ACargoE.html" title="Inicio"> Ayuda_Cargo</a></li>
+          <li> <a href="AyudaVehiculos/AyudaVehiculos.html" title="Inicio"> Ayuda Vehiculos</a></li>
+          <li> <a href="AyudaUsuarios/Ayuda Usuarios/VProduccion.html" title="Inicio"> Ayuda Produccion</a></li>
+          <li> <a href="Ayuda_Inventario/AyudaEmpleados.html" title="Inicio"> Ayuda empleado</a></li>
+          <li> <a href="Ayuda_Inventario/AyudaEntrada.html" title="Inicio"> Ayuda Entrada</a></li>
+          <li> <a href="Ayuda_Inventario/AyudaIventario.html" title="Inicio"> Ayuda Inventario</a></li>
+          <li> <a href="AyudaProduccionMain/VProduccion.html" title="Inicio"> AyudaProduccionMain</a></li>
+          
+      </ul>
 
-        <hr/>
-        <!--contenido del index-->
+              </p>
+            </div>
+          </div>
+        </div >
+        <BR><BR>
+        <div>
+            <p class="about-text">
+                  <li>Instalacion:
 
-        <h2>Bienvenido a mi website</h2>
-        <img src="imagenes/espacio.png"  alt="espacio" title="espacio" width="522" >
-        <p  >
-            Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza,
-             le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro.
-             Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo 
-             y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, 
-             y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca. Así que, no debes 
-             congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole 
-             don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un 
-             hombre más que otro si no hace más que otro. Todas estas borrascas que nos suceden son señales de que 
-             presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni e
-             l bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca. Así 
-             que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no 
-        </p>
-    </body>
+                  <li> Debes tener Instalado Visual Studio 2019</li>
+                  <li> Debes tener Instalado Sql Server Express </li>
+                   debes clonar el repositorio, una vez clonado el repositorio, debes acceder al administrador de paquetes nugget dando click derecho sobre el proyecto y seleccionar "Administrador de paquetes nugget" para instalar los siguientes paquetes: </li>
+                    
+                <div>
+                        <ol> <img src="logo mina.png" width="1080" height="800"></ol>
+                </div>
+              </p>
+              <br>
+              <p class="about-text">
+                A). FluentWpf b).LiveChartsWpf c). MaterialDesignColor D).MaterialDesignThemes E) System.Configuration.Configuration.Manager F) si ya instalaste los anteriores paquetes nugget debes irte a herramientas, -> administrador de paquetes nugget-> en consola de administrador de paquetes nugget, y pegar en el console la siguiente lineas de comando: Install-Package MahApps.Metro.IconPacks.Material -Version 4.8.0
+
+Como siguiente paso debes acceder al archivo de la base de datos BdMinaMochito el cual esta en la siguiente dirección Aquí
+
+debes crear esa base de datos en tu gestor sql server
+
+Introduccion:
+
+Proyecto MinaElMochito nace de la necesidad de crear un sotfware para la clase de Desarrollo de Software, con el objetivo de satisfacer las necesidades basadas en una mina real.
+
+Login Para ingresar datos en el login ya por defecto existirá un usuario administrador que será previamente insertado en la creación de la base de datos. Para administrar el programador existirán dos tipos de usuarios; un usuario administrador tendrá acceso a todos los formularios y a toda la información del sistema mientras que un usuario Empleado de turno tendrá acceso limitado y solo se le habilitaran solo 3 formularios los cuales son Viajes internos, inventario mineral y salidas.
+
+El username por defecto será “Admin” La contraseña será:* MInaMochito2021*
+              <div>
+                      <ol> <img src="messi1.jpg"></ol>
+              </div>
+            
+           
+        </div>
+        </div>
+        </section>
+</body>
 </html>
